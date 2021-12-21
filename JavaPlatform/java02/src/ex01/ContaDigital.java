@@ -1,5 +1,6 @@
 package ex01;
 
+// exemplo de Herança
 public class ContaDigital extends ContaBancaria {
 	
 	@Override
