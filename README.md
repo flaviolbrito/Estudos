@@ -1,2 +1,2 @@
 # Estudos
-Armazena os projetos de estudos e aperfeicoamento da carreira. 
+ Repositorio de atividades realizadas durante cursos e aperfeiçoamento da Carreira
