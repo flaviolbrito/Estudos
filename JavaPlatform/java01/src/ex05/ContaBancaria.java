@@ -11,7 +11,7 @@ public class ContaBancaria {
 	public ContaBancaria(){ // construtor sem argumentos
 		ContaBancaria.identificador++; // incrementa variável estática
 	}
-
+	//Exemplo de  Encapsulamento
 	public ContaBancaria(String titular){ // construtor passando titular
 	    this(); // chama o construtor padrão
 	    this.titular = titular;
