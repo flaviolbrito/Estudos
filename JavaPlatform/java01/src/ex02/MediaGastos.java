@@ -3,7 +3,7 @@ package ex02;
 class MediaGastos {
 
     public static void main(String[] args) {
-
+//Variáveis e tipos primitivos
         int gastosP1 = 15000;
         int gastosP2 = 23000,
             gastosP3 = 17000;
