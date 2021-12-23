@@ -1,0 +1,1 @@
+Exemplo Implementação Interface
