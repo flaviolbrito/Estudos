@@ -1,7 +1,7 @@
 package ex06;
 
 public class ContaBancaria {
-
+// Teste IDE Intellij / Eclipse
 	// atributos
 	private String titular;
 	private double saldo;
