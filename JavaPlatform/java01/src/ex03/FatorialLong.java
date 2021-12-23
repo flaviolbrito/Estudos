@@ -2,6 +2,7 @@ package ex03;
 
 class FatorialLong {
 
+    //Exemplo Controles de Fluxo
     public static void main(String[] args) {
         long fatorial = 1;
         int fim = 10;
