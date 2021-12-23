@@ -1,7 +1,7 @@
 package ex05;
 
 public class TesteContas {
-
+//Exemplo de  Encapsulamento
 	public static void main(String[] args) {
 
 		ContaBancaria c1 = new ContaBancaria();
