@@ -8,7 +8,7 @@ public class Cliente {
 		super();
 	}
 
-	//sobrecarga de Construtores (2 construtores Cliente )
+	//Sobrecarga de Construtores
 	public Cliente(String numeroRG) {
 		super();
 		this.numeroRG = numeroRG;
