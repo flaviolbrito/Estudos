@@ -1,0 +1,1 @@
+Exemplo Trata Exceções - Exemplo de Delegação de Exceções throws
