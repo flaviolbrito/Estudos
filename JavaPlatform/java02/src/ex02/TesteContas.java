@@ -6,7 +6,7 @@ public class TesteContas {
 		
 		ContaBancaria conta = new ContaBancaria();
 
-		//exemplo de sobrecarga de método
+		//exemplo de sobrecarga de método - testes
 		System.out.println(conta.getTaxaBancaria());
 		System.out.println(conta.getTaxaBancaria(10));
 		System.out.println(conta.getTaxaBancaria(1,1));
