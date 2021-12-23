@@ -6,6 +6,7 @@ public class ContaBancaria {
 	protected String endCliente;
 	protected String cpfCliente;
 
+	// herança de construtores
 	public ContaBancaria(String nomeCliente, String endCliente, String cpfCliente) {
 		super();
 		this.nomeCliente = nomeCliente;
