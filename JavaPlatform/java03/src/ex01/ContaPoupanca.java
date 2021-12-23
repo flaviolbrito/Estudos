@@ -4,7 +4,7 @@ public class ContaPoupanca extends ContaBancaria {
 	public ContaPoupanca(String nomeCliente, String endCliente, String cpfCliente) {
 		super(nomeCliente, endCliente, cpfCliente);
 	}
-
+	// Exemplo Delegação de Exceções throws
 	public void saque(double valor) throws SaldoInsuficiente{
 		
 		if (saldo - (valor - 0.10) < 0){

@@ -12,6 +12,7 @@ public class ContaBancaria {
 		this.endCliente = endCliente;
 		this.cpfCliente = cpfCliente;
 	}
+	// Exemplo Delegação de Exceções throws
 	public void saque(double valor) throws SaldoInsuficiente{
 		saldo -= valor;
 	}
