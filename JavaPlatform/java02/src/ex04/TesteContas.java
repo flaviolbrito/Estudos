@@ -14,8 +14,10 @@ public class TesteContas {
 		conta2.deposita(300000);
 		conta2.saque(100);
 		System.out.println(conta2.getSaldo());
-		
-		ContaBancaria conta = new ContaBancaria();
+
+		conta1.saque(300000);
+		conta1.saque(200);
+		System.out.println(conta1.getSaldo());
 
 	}
 	
