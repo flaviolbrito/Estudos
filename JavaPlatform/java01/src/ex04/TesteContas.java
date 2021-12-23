@@ -1,7 +1,7 @@
 package ex04;
 
 public class TesteContas {
-
+// Orientação a Objetos
 	public static void main(String[] args) {
 		
 		ContaBancaria c1 = new ContaBancaria();
