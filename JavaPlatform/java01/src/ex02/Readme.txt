@@ -1,0 +1,1 @@
+Exemplo de Variáveis e tipos Primitivos
