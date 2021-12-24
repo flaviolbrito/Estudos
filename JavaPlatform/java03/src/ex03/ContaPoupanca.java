@@ -9,6 +9,7 @@ public class ContaPoupanca extends ContaBancaria {
 		saldo -= valor-0.10;
 	}
 	
+//Exemplo Teste de Igualdade - Implementa metodo equals
 
 	public boolean equals(Object obj) {
 		ContaPoupanca conta= (ContaPoupanca) obj;
