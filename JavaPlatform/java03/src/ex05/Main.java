@@ -7,7 +7,7 @@ public class Main {
 		Pessoa p1 = new Pessoa();
 		p1.setNome("João");
 		System.out.println("Hash p1:"+p1);
-		
+		// Exemplo trata exceções
 		try {
 			
 			Pessoa p2  = p1.clone();
