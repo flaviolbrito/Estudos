@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class TesteContas {
 
-	//Exemplo de Enum
+	//Exemplo de Enum - Tipos Enumerados
 
 	public static void main(String[] args) {
 		ContaDigital conta1 = new ContaDigital("João", "R. X", "1234", LocalDate.of(1981, 1, 12), LocalDate.now());
