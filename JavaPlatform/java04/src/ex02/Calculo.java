@@ -2,7 +2,7 @@ package ex02;
 public class Calculo {
 
 	public static void main(String[] args) {
-
+// Exemplo Array
 		int [] intArray = new int[] {3, 5, 1, 9, 10};
 		int soma = 0;
 		int max = 0;
