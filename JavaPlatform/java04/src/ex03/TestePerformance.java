@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class TestePerformance {
+ // Exemplo ArrayList e LinkedList
 
 	public static void main(String[] args) {
 
@@ -14,7 +15,7 @@ public class TestePerformance {
 
 		LocalDateTime inicio = LocalDateTime.now();
 
-		for (int i = 1; i <= 100000000; i++) {
+		for (int i = 1; i <=  1000000; i++) {
 			lista1.add("String: " + i);
 		}
 
@@ -24,7 +25,7 @@ public class TestePerformance {
 		System.out.println("Tempo de Inser��o [ArrayList]: " + tempoInsercao);
 
 		inicio = LocalDateTime.now();
-		for (int i = 1; i <= 100000000; i++) {
+		for (int i = 1; i <= 1000000; i++) {
 			lista2.add("String: " + i);
 		}
 		fim = LocalDateTime.now();
@@ -32,13 +33,13 @@ public class TestePerformance {
 		System.out.println("Tempo de Inser��o [LinkedList]: " + tempoInsercao);
 
 		inicio = LocalDateTime.now();
-		lista1.get(50000000);
+		lista1.get(500000);
 		fim = LocalDateTime.now();
 		tempoInsercao = ChronoUnit.MILLIS.between(inicio, fim);
 		System.out.println("Tempo de Consulta [ArrayList]: " + tempoInsercao);
 
 		inicio = LocalDateTime.now();
-		lista2.get(50000000);
+		lista2.get(500000);
 		fim = LocalDateTime.now();
 		tempoInsercao = ChronoUnit.MILLIS.between(inicio, fim);
 		System.out.println("Tempo de Consulta [LinkedList]: " + tempoInsercao);
