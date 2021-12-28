@@ -1,1 +1,1 @@
-Exemplo Trata Exceções
+Exemplo Lambda - Implementação interface OperadorDouble - Inclusão Readme

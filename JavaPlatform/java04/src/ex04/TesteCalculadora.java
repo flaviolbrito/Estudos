@@ -1,7 +1,7 @@
 package ex04;
 
 public class TesteCalculadora {
-
+// Exemplo Lambda - Implementação interface OperadorDouble
 	public static void main(String[] args) {
 
 		// somar
@@ -18,6 +18,9 @@ public class TesteCalculadora {
 
 		Double result4 = Calculadora.calcular(5d, 5d, (a, b) -> a / b);
 		System.out.println(result4); // 25.0
+
+		Double result5 = Calculadora.calcular(200d, 10d, (a, b) -> a / b);
+		System.out.println(result4); // 20.0
 
 	}
 
