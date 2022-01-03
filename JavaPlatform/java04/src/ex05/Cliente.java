@@ -8,6 +8,7 @@ public class Cliente {
 	private int idade;
 	boolean ativo;
 	LocalDateTime dataUltimaCompra;
+
 	public String getNome() {
 		return nome;
 	}
