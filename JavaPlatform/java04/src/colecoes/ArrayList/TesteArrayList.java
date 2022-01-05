@@ -7,6 +7,7 @@ public class TesteArrayList {
 	/**
 	 * @param args
 	 */
+	// Teste ArrayList
 	public static void main(String[] args) {
 
 		ArrayList<String> listaString = new ArrayList<String>();
@@ -15,11 +16,12 @@ public class TesteArrayList {
 		listaString.add("b");
 		listaString.add("c");
 		listaString.add("d");
+		listaString.add("teste XX");
 
 		for (int i = 0; i < listaString.size(); i++) {
 			System.out.println("listaString " + i + ": " + listaString.get(i));
 		}
-
+		System.out.println("Total Lista: " + listaString.size());
 	}
 
 }
