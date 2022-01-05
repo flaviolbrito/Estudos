@@ -7,7 +7,7 @@ public class TesteArrayList {
 	/**
 	 * @param args
 	 */
-	// Teste ArrayList
+	// Teste ArrayList - listaString
 	public static void main(String[] args) {
 
 		ArrayList<String> listaString = new ArrayList<String>();
