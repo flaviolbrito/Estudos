@@ -2,15 +2,17 @@ package colecoes.Arrays;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 public class TesteArrays {
 
 	/**
 	 * @param args
 	 */
+	//Teste Arrays
 	public static void main(String[] args) {
 		
-		String[] listaString = new String[10];
+		String[] listaString = new String[14];
 
 		listaString[0] = "a";
 		listaString[1] = "h";
@@ -22,6 +24,10 @@ public class TesteArrays {
 		listaString[7] = "b";
 		listaString[8] = "u";
 		listaString[9] = "t";
+		listaString[10] = "teste";
+		listaString[11] = "10";
+		listaString[12] = "2";
+		listaString[13] = "0";
 
 		for (int i = 0; i < listaString.length; i++) {
 			System.out.println("listaString " + i + ": " + listaString[i]);
@@ -32,7 +38,7 @@ public class TesteArrays {
 		Arrays.sort(listaString);
 
 		for (int i = 0; i < listaString.length; i++) {
-			System.out.println("listaString " + i + ": " + listaString[i]);
+			System.out.println("listaString Dados Em Ordem (Sort): " + i + ": " + listaString[i]);
 		}
 
 		System.out.println("\n");
@@ -57,7 +63,7 @@ public class TesteArrays {
 
 		String[] listaString3 = new String[10];
 
-		listaString3[0] = "a";
+		listaString3[0] = "t";
 		listaString3[1] = "h";
 		listaString3[2] = "y";
 		listaString3[3] = "q";
@@ -66,14 +72,19 @@ public class TesteArrays {
 		listaString3[6] = "s";
 		listaString3[7] = "b";
 		listaString3[8] = "u";
-		listaString3[9] = "t";
+		listaString3[9] = "1";
 
+		Arrays.sort(listaString2);
 		Arrays.sort(listaString3);
 
 		boolean igualdade = Arrays.equals(listaString, listaString2);
 		System.out.println("O array listaString é igual a listaString2? " + igualdade);
+
 		igualdade = Arrays.equals(listaString, listaString3);
 		System.out.println("O array listaString é igual a listaString3? " + igualdade);
+
+		igualdade = Arrays.equals(listaString2, listaString3);
+		System.out.println("O array listaString2 é igual a listaString3? " + igualdade);
 
 		System.out.println("\n");
 
