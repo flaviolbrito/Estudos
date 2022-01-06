@@ -9,6 +9,7 @@ public class TesteComparable {
 	/**
 	 * @param args
 	 */
+	//Teste Comparable - Ordenação
 	public static void main(String[] args) {
 		
 		ArrayList<Cliente> listaCliente = new ArrayList<Cliente>();
@@ -27,7 +28,7 @@ public class TesteComparable {
 
 		while (iterador.hasNext()) {
 			Cliente cliente = iterador.next();
-			System.out.println("ID " + cliente.getIdentificacao() + " " + cliente);
+			System.out.println("ID1 " + cliente.getIdentificacao() + " " + cliente);
 		}
 
 		Collections.sort(listaCliente);
@@ -35,7 +36,7 @@ public class TesteComparable {
 
 		while (iterador.hasNext()) {
 			Cliente cliente = iterador.next();
-			System.out.println("ID " + cliente.getIdentificacao() + " " + cliente);
+			System.out.println("ID2 " + cliente.getIdentificacao() + " " + cliente);
 		}
 
 	}
