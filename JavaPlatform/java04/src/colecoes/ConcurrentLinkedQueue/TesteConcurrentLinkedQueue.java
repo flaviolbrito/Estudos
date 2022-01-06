@@ -5,6 +5,7 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 
 public class TesteConcurrentLinkedQueue {
 
+	//Teste ConcurrentLinkedQueue
 	public static void main(String[] args) {
 
 		ConcurrentLinkedQueue<String> collection = new ConcurrentLinkedQueue<String>();
