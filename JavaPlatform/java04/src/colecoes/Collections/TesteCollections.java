@@ -9,6 +9,7 @@ public class TesteCollections {
 	/**
 	 * @param args
 	 */
+	//Teste Collections
 	public static void main(String[] args) {
 		
 		List<String> listaString = new ArrayList<String>();
