@@ -9,6 +9,8 @@ public class TesteComparator {
 	/**
 	 * @param args
 	 */
+
+	//Exemplo Comparador - Ordena por ID ou Nome
 	public static void main(String[] args) {
 		
 		ArrayList<Cliente> listaCliente = new ArrayList<Cliente>();
