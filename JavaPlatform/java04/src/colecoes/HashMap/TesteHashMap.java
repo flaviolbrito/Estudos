@@ -9,7 +9,7 @@ public class TesteHashMap {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-
+//Teste HashMap - mapeamento de objetos no esquema chave/valor
 		Map<Integer, String> nomes = new HashMap<>();
 
 		nomes.put(1, "Maria");
