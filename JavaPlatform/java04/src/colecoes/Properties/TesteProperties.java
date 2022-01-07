@@ -1,7 +1,7 @@
 package colecoes.Properties;
 
 import java.util.Properties;
-
+//TesteProperties
 public class TesteProperties {
 
 	/**
