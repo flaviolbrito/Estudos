@@ -3,6 +3,8 @@ package colecoes.HashTable;
 import java.util.Hashtable;
 import java.util.Map;
 
+//TesteHashTable
+
 public class TesteHashTable {
 
 	/**
