@@ -2,7 +2,7 @@ package colecoes.ListIterator;
 
 import java.util.ArrayList;
 import java.util.ListIterator;
-
+//TesteListIterator
 public class TesteListIterator {
 
 	/**
@@ -24,8 +24,8 @@ public class TesteListIterator {
 		ListIterator<String> iterador = listaString.listIterator();
 
 		try {
-			while (iterador.hasPrevious()) {
-				String valor = iterador.previous();
+			while (iterador.hasNext()) {
+				String valor = iterador.next();
 				System.out.println("Valor " + valor);
 			}
 		} catch (Exception e) {
