@@ -3,6 +3,7 @@ package colecoes.HashSet;
 import java.util.HashSet;
 import java.util.Set;
 
+//Teste com HashSet
 public class TesteHashSet {
 
 	/**
