@@ -2,7 +2,8 @@ package colecoes.Stack;
 
 import java.util.Stack;
 
-public class TesteRandomAccess {
+//TesteStack - Pilha Sistema LIFO - último a entrar, primeiro a sair.
+public class TesteStack {
 
 	/**
 	 * @param args
@@ -26,3 +27,7 @@ public class TesteRandomAccess {
 	}
 
 }
+
+//Stack – Esta classe permite a inclusão de elementos que são colocados em uma pilha.
+// O elemento junta-se à pilha no topo e sai dela também a partir do topo.
+// A Stack usa o sistema LIFO (last-in first-out), ou seja, “último a entrar, primeiro a sair”
