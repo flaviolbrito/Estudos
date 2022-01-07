@@ -2,7 +2,7 @@ package colecoes.IdentityHashMap;
 
 import java.util.IdentityHashMap;
 import java.util.Map;
-
+//TesteIdentityHashMap
 public class TesteIdentityHashMap {
 
 	/**
