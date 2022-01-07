@@ -22,7 +22,7 @@ public class CavaloEnhanced implements Callable<String> {
 	public String call() throws Exception {
 		for (int i = 1; i < 11; i++) {
 			Thread.sleep((int) (Math.random() * 100));
-			//System.out.println(nomeCavalo + " " + i * 100 / 10 + "% percorridos...");
+			System.out.println(nomeCavalo + " " + i * 100 / 10 + "% percorridos...");
 		}
 		return nomeCavalo + " venceu!";
 	}

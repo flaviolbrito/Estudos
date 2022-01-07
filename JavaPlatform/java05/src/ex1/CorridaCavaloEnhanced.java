@@ -7,6 +7,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+// Concorrência de Threads - Programação Concorrente - Teste concurrent.Callable - mais rapido
 public class CorridaCavaloEnhanced {
 
 	/**
