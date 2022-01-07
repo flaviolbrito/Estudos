@@ -2,7 +2,7 @@ package colecoes.WeakHashMap;
 
 import java.util.Map;
 import java.util.WeakHashMap;
-
+//TesteWeakHashMap
 public class TesteWeakHashMap {
 
 	/**
