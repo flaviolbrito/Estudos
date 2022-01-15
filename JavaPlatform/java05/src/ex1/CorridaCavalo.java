@@ -1,6 +1,6 @@
 package ex1;
 
-// Concorrência de Threads - Programação Concorrente
+// Concorrência de Threads - Programação Concorrente - implements Runnable
 public class CorridaCavalo {
 
 	/**
