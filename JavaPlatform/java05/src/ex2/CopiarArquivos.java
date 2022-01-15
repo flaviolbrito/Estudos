@@ -22,10 +22,10 @@ public class CopiarArquivos extends SimpleFileVisitor<Path> {
 	@Override
 	public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
 		System.out.println("Procurando arquivos (" + file.getFileName() + ")...");
-		if (matcher.matches(file.getFileName())) {
+		//if (matcher.matches(file.getFileName())) {
 			System.out.println("Extensão encontrada (" + file.getFileName() + "). Copiando...");
 			Files.copy(file, destino.resolve(file.getFileName()), StandardCopyOption.REPLACE_EXISTING);
-		}
+		//}
 		return FileVisitResult.CONTINUE;
 	}
 

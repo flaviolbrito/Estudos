@@ -6,13 +6,13 @@ import java.nio.file.Paths;
 
 public class TesteCopiaArquivos {
 
-	//Teste IO - Input Output Arquivos
+	//Teste IO - Input Output Arquivos - interface FileVisitor
 	public static void main(String[] args) {
 
 		try {
 			
-			Path origem = Paths.get("origem");
-			Path destino = Paths.get("destino");
+			Path origem = Paths.get("C:\\Users\\flavi\\Downloads\\download.pdf");
+			Path destino = Paths.get("C:\\Users\\flavi\\Downloads\\copia");
 			Files.walkFileTree(origem, new CopiarArquivos(destino));
 
 		} catch (Exception e) {
