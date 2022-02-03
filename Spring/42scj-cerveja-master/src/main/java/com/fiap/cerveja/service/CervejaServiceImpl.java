@@ -45,8 +45,7 @@ public class CervejaServiceImpl implements CervejaService {
 
     @Override
     public CervejaDTO getById(Long id) {
-        Cerveja cerveja = cervejaRepository.findById(id)
-                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "cerveja.nao.encontrada"));
+        Cerveja cerveja = getCervejaById(id);
         return new CervejaDTO(cerveja);
     }
 
@@ -62,16 +61,38 @@ public class CervejaServiceImpl implements CervejaService {
 
     @Override
     public CervejaDTO update(Long id, CervejaCreateOrUpdateDTO cervejaCreateOrUpdateDTO) {
-        return null;
+
+        Cerveja cerveja = getCervejaById(id);
+        cerveja.setNome(cervejaCreateOrUpdateDTO.getNome());
+        cerveja.setTipo(cervejaCreateOrUpdateDTO.getTipo());
+        cerveja.setVencimento(cervejaCreateOrUpdateDTO.getVencimento());
+
+        Cerveja cervejaSaved = cervejaRepository.save(cerveja);
+
+        return new CervejaDTO(cervejaSaved);
     }
 
     @Override
     public CervejaDTO updateVencimento(Long id, CervejaVencimentoDTO cervejaVencimentoDTO) {
-        return null;
+        Cerveja cerveja = getCervejaById(id);
+
+        cerveja.setVencimento(cervejaVencimentoDTO.getVencimento());
+
+        Cerveja cervejaSaved = cervejaRepository.save(cerveja);
+
+        return new CervejaDTO(cervejaSaved);
     }
 
     @Override
     public void delete(Long id) {
+        Cerveja cerveja = getCervejaById(id);
 
+        cervejaRepository.delete(cerveja);
     }
+
+    private Cerveja getCervejaById(Long id) {
+        return cervejaRepository.findById(id)
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "cerveja.nao.encontrada"));
+    }
+
 }
