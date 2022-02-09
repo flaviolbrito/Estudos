@@ -9,7 +9,7 @@ public class TesteLinkedHashSet {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-
+// TesteLinkedHashSet
 		Set<String> nomes = new LinkedHashSet<String>();
 
 		nomes.add("Maria");
