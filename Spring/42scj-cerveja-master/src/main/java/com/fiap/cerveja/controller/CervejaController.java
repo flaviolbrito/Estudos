@@ -5,16 +5,11 @@ import com.fiap.cerveja.dto.CervejaCreateOrUpdateDTO;
 import com.fiap.cerveja.dto.CervejaDTO;
 import com.fiap.cerveja.dto.CervejaVencimentoDTO;
 import com.fiap.cerveja.service.CervejaService;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.fiap.cerveja.service.CervejaServiceImpl;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.server.ResponseStatusException;
 
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("cervejas")
@@ -30,6 +25,7 @@ public class CervejaController {
     public List<CervejaDTO> buscarCervejas(
             @RequestParam(value = "tipo", required = false) Tipo tipo
     ) {
+
         return cervejaService.getAll(tipo);
     }
 

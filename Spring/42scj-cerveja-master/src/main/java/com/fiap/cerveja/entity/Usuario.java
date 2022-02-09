@@ -1,18 +1,16 @@
 package com.fiap.cerveja.entity;
 
-import com.fiap.cerveja.domain.Tipo;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
-import java.time.LocalDate;
 import java.util.Date;
 
 @Entity
 @EntityListeners(AuditingEntityListener.class)
-@Table(name = "TB_CERVEJA")
-public class Cerveja {
+@Table(name = "TB_USUARIO")
+public class Usuario {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,11 +20,7 @@ public class Cerveja {
     private String nome;
 
     @Column
-    @Enumerated(EnumType.STRING)
-    private Tipo tipo;
-
-    @Column
-    private LocalDate vencimento;
+    private String senha;
 
     @Column(nullable = false, updatable = false)
     @CreatedDate
@@ -52,20 +46,12 @@ public class Cerveja {
         this.nome = nome;
     }
 
-    public Tipo getTipo() {
-        return tipo;
+    public String getSenha() {
+        return senha;
     }
 
-    public void setTipo(Tipo tipo) {
-        this.tipo = tipo;
-    }
-
-    public LocalDate getVencimento() {
-        return vencimento;
-    }
-
-    public void setVencimento(LocalDate vencimento) {
-        this.vencimento = vencimento;
+    public void setSenha(String senha) {
+        this.senha = senha;
     }
 
     public Date getDataCriacao() {

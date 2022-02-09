@@ -14,4 +14,13 @@ spring:
       enabled: true # localhost:8081/h2-console
   jpa:
     hibernate:
-      ddl-auto: update # Remover quando implementar migrations
+      ddl-auto: validate
+#  security:
+#    user:
+#      name: fiap
+#      password: senha
+#      roles: ADMIN
+
+jwt:
+  secret: s3cr3t
+  expireInSeconds: 120
