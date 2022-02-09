@@ -9,7 +9,7 @@ public class TesteLinkedHashMap {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-
+// TesteLinkedHashMap
 		Map<Integer, String> nomes = new LinkedHashMap<Integer, String>();
 
 		nomes.put(1, "Maria");
