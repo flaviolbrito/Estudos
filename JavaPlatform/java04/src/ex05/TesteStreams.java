@@ -6,7 +6,7 @@ import java.time.Period;
 import java.util.ArrayList;
 
 public class TesteStreams {
-// Exemplo Streams
+// Exemplo Streams - Testes
 	public static void main(String[] args) {
 
 		ArrayList<Cliente> listaCliente = new ArrayList<>();
