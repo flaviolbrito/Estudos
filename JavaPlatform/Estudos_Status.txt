@@ -1,2 +1,5 @@
-terminei  java03
-comecar java04
+java01 - Finalizado - OK
+java02 - Finalizado - OK
+java03 - Finalizado - OK
+java04 - Finalizado - OK
+java05 - Finalizado - OK
