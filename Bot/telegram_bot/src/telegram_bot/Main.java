@@ -13,7 +13,7 @@ import com.pengrad.telegrambot.response.GetUpdatesResponse;
 import com.pengrad.telegrambot.response.SendResponse;
 
 public class Main {
-// bot exemplo - incluir o token e executar.
+// Bot exemplo - incluir o token e executar.
 	public static void main(String[] args) {
 		// Criacao do objeto bot com as informacoes de acesso.SEU_TOKEN_ACESSO
 		TelegramBot bot = new TelegramBot("SEU_TOKEN_ACESSO");
