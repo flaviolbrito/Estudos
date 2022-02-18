@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:h2:~/fiapcervejabatch;DB_CLOSE_ON_EXIT=FALSE
+    username: fiap
+    password: fiap
+  batch:
+    jdbc:
+      initialize-schema: always
+      schema: classpath:/schema-h2.sql
+
+fiap:
+  batch:
+    resource: cervejas.csv
+    arquivo: /Users/fabiomiyasato/arquivo_deletar.txt
