@@ -4,4 +4,4 @@ java03 - Finalizado - OK
 java04 - Finalizado - OK
 java05 - Finalizado - OK
 
-C:\Users\flavi\Dropbox\Cursos\Fontes_JavaPlatform_Git\Estudos\JavaPlatform - Estudo Completo - OK
+C:\Users\flavi\Dropbox\Cursos\Fontes_JavaPlatform_Git\Estudos\JavaPlatform - Estudo Completo Finalizado - OK
