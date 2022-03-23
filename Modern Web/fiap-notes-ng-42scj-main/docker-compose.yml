@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  fiapnotesng42scjmain:
+    image: fiapnotesng42scjmain
+    build:
+      context: .
+      dockerfile: ./Dockerfile
