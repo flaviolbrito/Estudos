@@ -15,6 +15,7 @@ const atualizarDisplay = (texto)  => {
     else display.textContent += texto;
 }
 
+
 const inserirNumero = (event) => atualizarDisplay(event.target.textContent);
 
 teclasNumericas.forEach((tecla) => tecla.addEventListener('click', inserirNumero));
