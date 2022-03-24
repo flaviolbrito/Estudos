@@ -7,8 +7,8 @@
 }
 
 :root{
-    --primary: #ED145B;
-    --secondary: #9090f6;
+    --primary: #5514ed;
+    --secondary: #90f6bb;
     --white: #F0F0F0;
 }
 
@@ -64,7 +64,7 @@ body {
 }
 
 .calculadora button:hover{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.993);
     color: var(--white);
 }
 

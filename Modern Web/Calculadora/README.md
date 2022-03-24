@@ -1,2 +1,3 @@
-# Calculadora---ModerWeb
-Projetinho de calculadora da aula de Modern Web da FIAP
+# Projeto Calculadora WEB
+# Matéria: ModerWeb
+
