@@ -67,6 +67,7 @@ const inverterSinal = () => {
 
 document.querySelector("#inverter").addEventListener("click", inverterSinal);
 
+// inclusao decimal  
 const adicionarDecimal = () => {
     (display.textContent = display.textContent.concat(","));
     numeroNovo = false;
