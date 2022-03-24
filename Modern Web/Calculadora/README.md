@@ -1,2 +1,4 @@
-# Calculadora---ModerWeb
-Projetinho de calculadora da aula de Modern Web da FIAP
+#Calculadora
+Aula ModerWeb
+Professor: Rafael Nogueira Leme
+
