@@ -22,17 +22,17 @@ public class TestaAplicacao {
 		try {
 			//Definindo o cliente
 			Cliente cliente = new Cliente();
-			cliente.setId(10);
+			cliente.setId(20);
 			cliente.setEmpresa("Fiap");
 			//Definindo o Endereco
 			Endereco endereco = new Endereco();
 			endereco.setRua("Lins de Vasconcelos");
-			endereco.setCidade("São Paulo");
+			endereco.setCidade("Sï¿½o Paulo");
 			endereco.setCep("01538-001");
 			endereco.setCliente(cliente);
 			//Definindo o pedido
 			PedidosPK pkpedido = new PedidosPK();
-			pkpedido.setCodigo(100);
+			pkpedido.setCodigo(101);
 			pkpedido.setCategoria("Livros");
 			Pedido pedido = new Pedido();
 			pedido.setDataPedido(new Date());
@@ -43,13 +43,13 @@ public class TestaAplicacao {
 			item1.setQuantidade(2);
 			Item item2 = new Item();
 			item2.setQuantidade(3);
-			//Fazendo as associações
+			//Fazendo as associaï¿½ï¿½es
 			pedido.getItens().add(item1);
 			pedido.getItens().add(item2);
 			cliente.getEnderecos().add(endereco);
 			cliente.getPedidos().add(pedido);
 			dao.salvar(cliente);
-			JOptionPane.showMessageDialog(null, "Cliente incluído com sucesso!");
+			JOptionPane.showMessageDialog(null, "Cliente incluï¿½do com sucesso!");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

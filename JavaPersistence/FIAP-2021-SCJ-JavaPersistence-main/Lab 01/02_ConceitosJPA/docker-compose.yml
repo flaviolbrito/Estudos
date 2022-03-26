@@ -1,0 +1,24 @@
+#version: '3'
+#services:
+# mysqldb:
+#  image: mysql:latest
+#
+# environment:
+#  MYSQL_ROOT_PASSWORD: "fiap"
+#  MYSQL_DATABASE: "fiap2022"
+#  ports:
+#  - "3306:3306"
+#  volumes:
+#  - ~/VOLUMES/mysql:/var/lib/mysql
+#  networks:
+#  - mysql-compose-network
+#  networks:
+#  mysql-compose-network:
+#  driver: bridge
+#
+#
+#  adminer:
+#  image: adminer
+#  restart: always
+#  ports:
+#   - 8080:8080
