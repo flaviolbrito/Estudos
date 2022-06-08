@@ -1,2 +1,2 @@
 # Estudos
- Repositorio de atividades realizadas durante cursos e aperfeiçoamento da Carreira
+ Repositorio de atividades para estudo de aperfeiçoamento em tecnologias. 
